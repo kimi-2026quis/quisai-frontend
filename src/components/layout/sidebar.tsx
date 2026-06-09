@@ -1,7 +1,7 @@
 import { ReactNode } from 'react'
 
 interface SidebarProps {
-  children: ReactNode
+  children?: ReactNode
 }
 
 export default function Sidebar({ children }: SidebarProps) {
